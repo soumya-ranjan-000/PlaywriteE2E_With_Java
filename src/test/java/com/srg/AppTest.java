@@ -1,5 +1,9 @@
 package com.srg;
 
+import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.Page;
+import com.microsoft.playwright.Playwright;
+
 public class AppTest {
     public static void main(String[] args) {
         try (Playwright playwright = Playwright.create()) {
